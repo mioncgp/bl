@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0 0 0 0;
+  font-family: sans-serif;
+  background-color: #bfbfbf !important;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+#main-navbar {
+  background-color: #23272a !important;
+  color: #99aab5 !important;
+}
+
+.links {
+  color: #7289da !important;
+  font-weight: 900 !important;
+}
+
+.btn {
+  background-color: #7289da !important;
+  outline: 0px !important;
+  border: none !important;
+}
+
+input,
+select {
+  background-color: #2c2f33 !important;
+  color: #99aab5 !important;
+}
+
+input::placeholder {
+  color: white !important;
+}
+
+.form-control {
+  color: white !important;
+}
+
+.page-link {
+  background-color: #7289da !important;
+  border: none !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.table-row {
+  height: 7.5rem;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.list-group-custom {
+  margin: 1rem !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  list-style-type: none !important;
+  color: white;
+  flex-wrap: wrap;
+  padding: 0px !important;
+}
+
+.list-group-item-custom {
+  margin: 2px !important;
+  background-color: #23272a;
+  padding: 5px !important;
+  border-radius: 10px;
+}
+
+.list-group-item-custom:hover {
+  background-color: #7289da;
+}
+
+.col-3 {
+  margin: auto !important;
+}
+
+.container-username {
+  margin: auto;
+  margin-top: 25%;
+  width: 30rem;
+  height: 30rem;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  border: #23272a 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.username-item {
+  margin: 0.5rem;
+}
+
+.username-span-1 {
+  text-decoration: underline;
+  padding: 0.5rem;
+}
+
+.username-span-2 {
+  font-size: 1.2rem;
+  color: #7289da;
+}
+
+.form-auth {
+  width: 30%;
+  margin: auto;
+  margin-top: 12%;
+}
+
+.file-upload {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+input[type="file"] {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-username {
+    width: 18rem;
+  }
+
+  .form-auth {
+    width: 70%;
+    margin: auto;
+    margin-top: 12%;
+  }
+}
